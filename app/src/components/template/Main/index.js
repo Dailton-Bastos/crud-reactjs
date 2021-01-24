@@ -3,10 +3,10 @@ import Header from '../Header';
 
 import './style.css';
 
-const Main = () => {
+const Main = (props) => {
   return (
     <>
-      <Header />
+      <Header {...props} />
       <main className="content">Conteúdo</main>
     </>
   );

@@ -1,0 +1,28 @@
+header.header {
+  background-color: #fff;
+  padding: 0 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header.header h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  margin-bottom: 1rem;
+}
+
+header.header p {
+  font-size: 1.4rem;
+  color: #777;
+}
+
+header.header h1 svg {
+  margin-right: 5px;
+}
