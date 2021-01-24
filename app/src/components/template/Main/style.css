@@ -1,0 +1,13 @@
+main > div {
+  background-color: #fff;
+  box-shadow: 0px 0px 15px #0004;
+}
+
+main.wrapper-main {
+  padding: 10px;
+}
+
+.wrapper-main .content {
+  margin-top: 3px;
+  padding: 3px;
+}

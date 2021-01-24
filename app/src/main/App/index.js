@@ -1,10 +1,8 @@
 import React from 'react';
 import Logo from '../../components/template/Logo';
 import Nav from '../../components/template/Nav';
-import Main from '../../components/template/Main';
+import Home from '../../components/Home';
 import Footer from '../../components/template/Footer';
-
-import { FaHome } from 'react-icons/fa';
 
 import './style.css';
 
@@ -13,7 +11,7 @@ const App = () => {
     <div className="app">
       <Logo />
       <Nav />
-      <Main icon={<FaHome />} title="Alacritech" subtitle="Feito Para Você." />
+      <Home />
       <Footer />
     </div>
   );

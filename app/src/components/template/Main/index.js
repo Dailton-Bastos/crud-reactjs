@@ -3,11 +3,13 @@ import Header from '../Header';
 
 import './style.css';
 
-const Main = (props) => {
+const Main = ({ children, ...props }) => {
   return (
     <>
       <Header {...props} />
-      <main className="content">Conteúdo</main>
+      <main className="wrapper-main">
+        <div className="content">{children}</div>
+      </main>
     </>
   );
 };
