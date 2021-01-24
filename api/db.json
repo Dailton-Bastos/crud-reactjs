@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Dailton Bastos Cardoso",
+      "email": "dailtonbastos@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Gardenia Fontenele",
+      "email": "gar.fontenele@hotmail.com"
+    }
+  ]
+}
