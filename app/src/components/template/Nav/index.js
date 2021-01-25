@@ -9,8 +9,8 @@ const Nav = () => {
   return (
     <aside className="menu-area">
       <nav className="menu">
-        <NavItem url="#/" icon={<FaHome />} title="Início" />
-        <NavItem url="#/users" icon={<FaUsers />} title="Usuários" />
+        <NavItem url="/" icon={<FaHome />} title="Início" />
+        <NavItem url="/users" icon={<FaUsers />} title="Usuários" />
       </nav>
     </aside>
   );

@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavItem = ({ url, title, icon }) => {
   return (
-    <a href={url}>
+    <Link to={url} replace>
       {icon}
       {title}
-    </a>
+    </Link>
   );
 };
 

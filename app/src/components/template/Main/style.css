@@ -9,5 +9,6 @@ main.wrapper-main {
 
 .wrapper-main .content {
   margin-top: 3px;
-  padding: 3px;
+  padding: 30px;
+  border-radius: 5px;
 }
