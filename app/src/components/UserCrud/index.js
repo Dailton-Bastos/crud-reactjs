@@ -1,5 +1,6 @@
 import React from 'react';
 import Main from '../template/Main';
+import Form from './Form';
 
 import { FaUser } from 'react-icons/fa';
 
@@ -10,7 +11,11 @@ const headerProps = {
 };
 
 const UserCrud = () => {
-  return <Main {...headerProps}>Cadastro de Usuário</Main>;
+  return (
+    <Main {...headerProps}>
+      <Form />
+    </Main>
+  );
 };
 
 export default UserCrud;

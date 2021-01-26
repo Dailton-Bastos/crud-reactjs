@@ -1,0 +1,24 @@
+.input-control {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-control input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #ccc;
+  height: 35px;
+  color: #495057;
+}
+
+.input-control input:focus {
+  outline: none;
+  border-color: var(--color-focus);
+}

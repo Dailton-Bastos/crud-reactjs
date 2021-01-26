@@ -1,0 +1,22 @@
+.btn {
+  border: none;
+  background-color: var(--color-btn-default);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn.btn-primary {
+  background-color: var(--color-btn-primary);
+}
+
+.btn.btn-secondary {
+  background-color: var(--color-btn-secondary);
+}

@@ -5,6 +5,10 @@
   --header-height: 100px;
   --aside-width: 225px;
   --footer-height: 40px;
+  --color-focus: #00b4d8;
+  --color-btn-default: #6c757d;
+  --color-btn-primary: #4ea8de;
+  --color-btn-secondary: #ef233c;
 
   --shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1), 0 2px 49px 0 rgba(0, 0, 0, 0.3);
 }
