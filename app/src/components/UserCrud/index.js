@@ -22,6 +22,7 @@ const UserCrud = () => {
   function handleClearForm() {
     setName('');
     setEmail('');
+    setId(null);
   }
 
   async function handleSubmit(event) {
