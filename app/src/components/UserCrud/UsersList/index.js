@@ -2,6 +2,8 @@ import React from 'react';
 import Button from '../../Button';
 import { FaTrash, FaEdit } from 'react-icons/fa';
 
+import './style.css';
+
 const UsersList = ({ usersList, load, remove }) => {
   return (
     <table className="list-table">
