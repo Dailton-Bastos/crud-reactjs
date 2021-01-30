@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <Main icon={<FaHome />} title="Alacritech" subtitle="Feito Para Você.">
       <div>
-        Bem Vindo
+        <h1>Boas-vindas</h1>
         <hr />
-        <p>
+        <p style={{ padding: '15px 0' }}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa
           at, obcaecati dolore similique dolorem animi tenetur. Cum dolor
           expedita numquam ullam dolore, nobis, iure, illo dolorem magnam alias
